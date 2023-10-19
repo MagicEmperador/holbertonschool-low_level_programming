@@ -1,0 +1,10 @@
+school : school.o main.o
+	gcc -o school school.o main.o
+
+school.o : school.c
+	gcc -o school.o -c school.c -W -Wall - ansi -pedantic
+
+main.o : main.c
+	gcc -o main.o -c main.c -W -Wall - ansi -pedantic
+
+all: school
