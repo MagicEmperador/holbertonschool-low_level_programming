@@ -1,12 +1,7 @@
 CC = gcc
-exec = school
-SRC = school.c main.c
+
+SRC = main.c school.c
 
 
-$(exec) : school.o main.o
-	$(CC) -o $(exec) school.o main.o
-
-$(SRC) : school.c main.c
-	$(CC) -o $(SRC)
-
-All: school
+all: school
+	$(CC) $(SRC) -o school
