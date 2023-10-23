@@ -8,17 +8,17 @@
 
 void print_rev(char *s)
 {
-	int i = 0;
+	int longi = 0;
 
 	int o;
 
 	while (*s != '\0')
 	{
-		_putchar(i++);
+		longi++;
 		s++;
 	}
 	s--;
-	for (o = i; o > 0; o--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
