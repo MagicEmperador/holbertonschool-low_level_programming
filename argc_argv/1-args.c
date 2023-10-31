@@ -10,7 +10,7 @@
 * Return: returns 0 if it works
 */
 
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
 	(void)argv;
 	printf("%d\n", argc - 1);
