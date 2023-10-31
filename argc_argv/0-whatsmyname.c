@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints its name
+ * main - print its name
  * @argc: number of arguments
  * @argv: array of argurments
  *
