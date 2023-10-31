@@ -5,7 +5,7 @@
 /**
 * main - multiplies two numbers
 * @argc: number of arguments
-* @argv: the vector of the arguments
+* @argv: array of arguments
 *
 * Return: returns 0 if don't works return error
 */

@@ -4,7 +4,7 @@
 /**
 * main - prints all the arguments
 * @argc: number of arguments
-* @argv: the vector of arguments
+* @argv: array of arguments
 *
 * Return: returns 0
 */

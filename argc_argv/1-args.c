@@ -4,9 +4,8 @@
 /**
 * main - prints its name followed by a newline
 * @argc: number of arguments
-* @argv: the vector that hold the arguments
+* @argv: array of arguments
 *
-* Description: prints the number of arguments passed into the function
 * Return: returns 0 if it works
 */
 
