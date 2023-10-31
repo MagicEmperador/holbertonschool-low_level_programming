@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
-* main - multiplies two numbers
+* main - multiplie two numbers
 * @argc: number of arguments
 * @argv: array of arguments
 *
