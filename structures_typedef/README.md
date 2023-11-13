@@ -1,0 +1,1 @@
+projet struture and typedef
